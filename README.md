@@ -35,6 +35,19 @@ Neste repositório, você encontrará os seguintes notebooks:
     -   **Insights:** O comprimento e a largura da pétala são indicadores extremamente eficazes para classificar as espécies, especialmente para diferenciar a Setosa das demais.
 
 ---
+### 💻 Dashboard Interativo com Streamlit
+
+-   **`dashboard_iris.py`**
+    -   **Objetivo:** Criar uma aplicação web interativa para visualizar e explorar o dataset Iris.
+    -   **Funcionalidades:** Permite ao usuário filtrar os dados por espécie e visualizar gráficos comparativos que são atualizados em tempo real.
+    -   **Tecnologias:** Além das bibliotecas de análise, este projeto utiliza **Streamlit** para criar a interface do usuário e o servidor web.
+
+-   **`dashboard_titanic.py`**
+    -   **Objetivo:** Criar uma aplicação web para analisar interativamente os fatores que influenciaram a sobrevivência dos passageiros no desastre do Titanic.
+    -   **Funcionalidades:** Permite ao usuário filtrar os dados dos passageiros por classe, gênero e uma faixa de idade específica. As estatísticas (como taxa de sobrevivência) e os gráficos são atualizados dinamicamente.
+    -   **Tecnologias:** Utiliza as mesmas tecnologias do projeto Iris, com foco no **Streamlit** para a construção da interface interativa.
+
+---
 
 ### 📚 Fonte dos Dados
 
